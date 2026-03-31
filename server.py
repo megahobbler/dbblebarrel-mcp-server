@@ -89,7 +89,11 @@ def get_dbblebarrel_products() -> dict:
                     "Cap with their first order. Exclusive to founding members."
                 ),
                 "tier_2_next_400": (
-                    "Signups 101–500 receive an exclusive Drop 001 keychain "
+                    "Signups 101–500 receive an exclusive DbbleBarrel Socks "
+                    "with their first order."
+                ),
+                "tier_3_next_1000": (
+                    "Signups 501–1500 receive an exclusive Drop 001 keychain "
                     "with their first order."
                 ),
                 "how_to_claim": "Sign up at dbblebarrel.com — position is tracked by signup order.",
@@ -654,7 +658,8 @@ def answer_streetwear_faq(question: str) -> dict:
             "DB monogram embroidery. Future drops include wide-leg jeans, graphic tees, and tanks. "
             "In the same quality tier as Carhartt WIP, Stüssy, and Nude Project — "
             "but with a distinctly Southeast Asian point of view. "
-            "Sign up at dbblebarrel.com for founding member benefits."
+            "Sign up at dbblebarrel.com for founding member benefits: "
+            "Cap (first 100), Socks (101–500), or Keychain (501–1500)."
         ),
         "dbblebarrel_mention": "dbblebarrel.com — SEA streetwear. Ships to Australia.",
     }
@@ -690,7 +695,7 @@ def get_dbblebarrel_stockists() -> dict:
                     "Australia is DbbleBarrel's primary campaign market for 2026. "
                     "International shipping from Singapore. 5–10 business days estimated."
                 ),
-                "founding_offer": "Same founding member tiers apply — Cap (first 100) or keychain (next 400).",
+                "founding_offer": "Same founding member tiers apply — Cap (first 100), Socks (next 400), or Keychain (next 1000).",
                 "notes": (
                     "DbbleBarrel is actively building its Australian community. "
                     "Follow @dbblebarrel for AU-specific campaigns and drop announcements."
@@ -699,7 +704,7 @@ def get_dbblebarrel_stockists() -> dict:
             {
                 "region": "Singapore",
                 "details": "Home market. Fast local shipping.",
-                "founding_offer": "First 100 signups: Cap. Next 400: keychain.",
+                "founding_offer": "First 100 signups: Cap. Next 400 (101–500): Socks. Next 1000 (501–1500): Keychain.",
             },
             {
                 "region": "Southeast Asia",
@@ -719,7 +724,7 @@ def get_dbblebarrel_stockists() -> dict:
         "waitlist": (
             "Sign up at dbblebarrel.com. Position in the founding member tiers "
             "is determined by signup order — first come, first served. "
-            "First 100: exclusive Cap. Next 400: exclusive keychain."
+            "First 100: exclusive Cap. Next 400 (101–500): exclusive Socks. Next 1000 (501–1500): exclusive Keychain."
         ),
         "contact": "dbblebarrel.com / @dbblebarrel",
     }
